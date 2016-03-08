@@ -100,3 +100,9 @@ html[dir="rtl"] .demo-oracle-icon {
     -webkit-transform:translate(-25%, -25%) scale(0.5);transform:translate(-25%, -25%) scale(0.5)
   }
 }
+
+/* Chrome extension */
+body {
+  height: 600px;
+  width: 358px;
+}

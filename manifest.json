@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Oracle JET extension",
+  "description": "Oracle JET packaged as a Chrome extension",
+  "version": "1.0",
+  "icons": { "256": "css/images/oraclejet-256.png" },
+
+  "browser_action": {
+    "default_icon": "css/images/oraclejet-256.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
